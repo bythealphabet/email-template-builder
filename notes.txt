@@ -1,0 +1,7 @@
+/ DEV DEPS
+
+yarn add --dev @babel/core @babel/plugin-transform-runtime @babel/plugin-transform-typescript @babel/preset-env @babel/preset-react @babel/preset-typescript @emotion/babel-plugin @emotion/babel-preset-css-prop @hot-loader/react-dom @types/fork-ts-checker-webpack-plugin @types/node @types/react @types/react-dom babel-loader file-loader fork-ts-checker-webpack-plugin nodemon rimraf ts-loader ts-node typescript webpack webpack-cli webpack-dev-middleware webpack-hot-middleware webpack-node-externals
+
+// DEPS
+
+yarn add @emotion/react dotenv express react react-dom react-hot-loader 

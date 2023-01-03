@@ -1,0 +1,6 @@
+{
+  "verbose": false,
+  "ext": ".ts,.js,.tsx",
+  "watch": ["./server", "./emails"],
+  "exec": "rimraf ./dist && webpack --mode=development --config ./build-utils/webpack.ts && node ./dist/server.generated.js"
+}
